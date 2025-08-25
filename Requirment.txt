@@ -1,0 +1,17 @@
+# Core
+numpy
+pandas
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+lightgbm
+xgboost
+catboost
+
+# Deep Learning + Time Series
+torch
+pytorch-lightning
+darts
+

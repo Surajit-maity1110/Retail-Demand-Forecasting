@@ -15,3 +15,6 @@ torch
 pytorch-lightning
 darts
 
+# Statistical Time Series Models
+statsmodels
+pmdarima

@@ -59,6 +59,9 @@ Key steps included:
 These steps ensured the dataset was consistent, continuous, and ready for model training.
 
 ## Modeling Approach
+Statistical Model
+- SARIMAX: Tried as a baseline for time series forecasting. Performed reasonably well on single series but limited scalability across multiple store–item combinations.
+
 Machine Learning Models
 LightGBM
 XGBoost

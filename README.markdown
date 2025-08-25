@@ -59,21 +59,21 @@ Key steps included:
 These steps ensured the dataset was consistent, continuous, and ready for model training.
 
 ## Modeling Approach
-**Statistical Model**
+**Statistical Model**  
 **SARIMAX**: Tried as a baseline for time series forecasting. Performed poor on single series and also limited scalability across multiple store–item combinations.
 
-**Machine Learning Models**
-**LightGBM**
-**XGBoost**
-**CatBoost**
+**Machine Learning Models**  
+**LightGBM**  
+**XGBoost**  
+**CatBoost**  
 
-**Deep Learning Models**
+**Deep Learning Models**  
 **LSTM:** Demonstrated on 1 store × 1 item (since LSTMs are effective for single time series).
 Results: Limited improvement → shifted focus to global models.
 
-**Global Deep Learning Models (Darts Library):**
-**N-BEATS**
-**Temporal Fusion Transformer (TFT)**
+**Global Deep Learning Models (Darts Library):**  
+**N-BEATS**  
+**Temporal Fusion Transformer (TFT)**  
 
 Both are designed for multi-series forecasting, making them suitable for retail datasets with multiple stores and items.
 
